@@ -1,0 +1,38 @@
+<div class="bg-white shadow py-4">
+    <div class="container">
+        <div class="flex items-center justify-between">
+
+            <div class="flex items-center space-x-8">
+                {% comment %}
+                    Logo
+                {% endcomment %}
+                <a href="/" class="text-2xl py-4">Shopify Vuejs</a>
+
+                {% comment %}
+                    Menu
+                {% endcomment %}
+                <ul class="flex items-center space-x-8 border-l border-gray-400 pl-8">
+                    <li><a href="/collections/all" class="text-color-link hover:text-color-link-hover transition duration-200">Products</a></li>
+                </ul>
+            </div>
+
+            {% comment %}
+                Icons
+            {% endcomment %}
+            <ul class="flex items-center space-x-8">
+                <li class="">
+                    <a href="/account/login" class="flex items-center space-x-3 text-color-link hover:text-color-link-hover transition duration-200">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                        <span>Account</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/cart" class="flex items-center space-x-3 text-color-link hover:text-color-link-hover transition duration-200">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+                        <span>Cart</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

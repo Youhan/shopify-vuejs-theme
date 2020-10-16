@@ -1,0 +1,15 @@
+<style>
+  :root{ --color-gray-100: {{settings.color_gray_100}}; --color-gray-200: {{settings.color_gray_200}}; --color-gray-300: {{settings.color_gray_300}}; --color-gray-400: {{settings.color_gray_400}}; --color-gray-500: {{settings.color_gray_500}}; --color-gray-600: {{settings.color_gray_600}}; --color-gray-700: {{settings.color_gray_700}}; --color-gray-800: {{settings.color_gray_800}}; --color-gray-900: {{settings.color_gray_900}}; --color-on-sale: {{settings.on_sale_price_color}}; --color-brand-100: {{settings.color_brand_100}}; --color-brand-300: {{settings.color_brand_300}}; --color-brand-500: {{settings.color_brand_500}}; --color-brand-700: {{settings.color_brand_700}}; --color-brand-800: {{settings.color_brand_800}}; --color-brand-900: {{settings.color_brand_900}}; --color-yellow-200: {{settings.color_yellow_200}}; --color-yellow-500: {{settings.color_yellow_500}}; --color-orange-200: {{settings.color_orange_200}}; --color-orange-500: {{settings.color_orange_500}}; --color-red-200: {{settings.color_red_200}}; --color-red-500: {{settings.color_red_500}}; --color-purple-200: {{settings.color_purple_200}}; --color-purple-500: {{settings.color_purple_500}}; --color-green-200: {{settings.color_green_200}}; --color-green-500: {{settings.color_green_500}}; --color-link: {{settings.color_link}}; --color-link-hover: {{settings.color_link_hover}}; --color-text: {{settings[settings.color_text_darkness]}}; --color-headings: {{settings.color_headings}}; --font-body: {{ settings.font_body.family }}, {{ settings.font_body.fallback_families }}; --font-heading: {{ settings.font_heading.family }}, {{ settings.font_heading.fallback_families }};}
+  {% for variant in settings.font_body.variants %}
+    {%- if variant.weight == "300" or variant.weight == "400" or variant.weight == "600" or variant.weight == "700" or variant.weight == "900"-%}
+      {{ variant | font_face: font_display: 'swap' }}
+    {%- endif -%}
+  {% endfor %}
+  {%- unless settings.font_body ==  settings.font_heading -%}
+    {% for variant in settings.font_heading.variants %}
+      {%- if variant.weight == "300" or variant.weight == "400" or variant.weight == "600" or variant.weight == "700" or variant.weight == "900"-%}
+        {{ variant | font_face: font_display: 'swap' }}
+      {%- endif -%}
+    {% endfor %}
+  {%- endunless -%}
+</style>

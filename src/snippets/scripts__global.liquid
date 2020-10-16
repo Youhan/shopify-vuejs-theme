@@ -1,0 +1,18 @@
+<script>
+  var vue_theme = {
+    name: {{ shop.name | json}},
+    base_url: {{ shop.secure_url | json }},
+    settings: {{ settings | json }},
+    customer: {{ customer.email | json }}
+  };
+</script>
+
+
+
+{% comment %}
+  load the layout js if no template is detected
+{% endcomment %}
+{%- if template == nil -%}
+  {{ "layout.css" | asset_url | stylesheet_tag }}
+  <script src="{{ 'layout.js' | asset_url }}" defer></script>
+{%- endif -%}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ shop.locale }}">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="" />
+    <link rel="canonical" href="{{ canonical_url }}" />
+    {% include 'page-title' %}
+    <meta name="description" content="{{ page_description | default: shop.description | default: shop.name }}">
+
+    {{content_for_header }}
+
+    {% comment %}
+      Global Styles
+    {% endcomment %}
+    {% include 'styles__global' %}
+
+    {% comment %}
+      Global Scripts
+    {% endcomment %}
+    {% include 'scripts__global' %}
+
+    {% comment %}
+      Og tags
+    {% endcomment %}
+    {% include 'social-meta-tags' %}
+
+  </head>
+
+  <body class="template-{{ request.page_type | handle }}">
+
+    {% comment %}
+      Header section
+    {% endcomment %}
+    {% section 'main-header' %}
+
+    {% comment %}
+      Main contents of tha page
+    {% endcomment %}
+    {{ content_for_layout }}
+
+    {% comment %}
+      Footer section
+    {% endcomment %}
+    {% section 'main-footer' %}
+
+  </body>
+</html>

@@ -1,0 +1,3 @@
+// Layout specific
+
+export default {};

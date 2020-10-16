@@ -1,0 +1,91 @@
+{
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // ===
+  // Files
+  // ===
+
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/coverage": true
+    // "**/dist": true,
+    // "**/node_modules": true
+  },
+  "files.associations": {
+    ".markdownlintrc": "jsonc",
+    "*.js.liquid": "javascript"
+  },
+
+  // ===
+  // Event Triggers
+  // ===
+
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "vetur.format.enable": false,
+  "vetur.completion.useScaffoldSnippets": false,
+  "prettier.disableLanguages": [],
+
+  // ===
+  // HTML
+  // ===
+
+  "html.format.enable": false,
+  "vetur.validation.template": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  "vetur.completion.tagCasing": "initial",
+
+  // ===
+  // JS(ON)
+  // ===
+
+  "jest.autoEnable": false,
+  "jest.enableCodeLens": false,
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+  "vetur.validation.script": false,
+
+  // ===
+  // CSS
+  // ===
+
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.style": false,
+
+  // ===
+  // MARKDOWN
+  // ===
+
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "editor.lineHeight": 28,
+  "cSpell.words": [
+    "Entrypoints",
+    "cloudinary",
+    "slugify",
+    "swiper"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // increase the subject line of the commit
+  "git.inputValidationSubjectLength": 200
+}

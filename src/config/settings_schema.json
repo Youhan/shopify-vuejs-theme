@@ -1,0 +1,288 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Shopify VueJS",
+    "theme_author": "Alireza Jahandideh",
+    "theme_version": "1.0.0",
+    "theme_documentation_url": "https://support.shopify.com/",
+    "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": {
+      "en": "Colors"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "en": "Element Specific Colors"
+        }
+      },
+      {
+        "type": "select",
+        "id": "color_text_darkness",
+        "label": "General Text Grayness",
+        "options": [
+          {
+            "value": "color_gray_400",
+            "label": "400"
+          },
+          {
+            "value": "color_gray_500",
+            "label": "500"
+          },
+          {
+            "value": "color_gray_600",
+            "label": "600"
+          },
+          {
+            "value": "color_gray_700",
+            "label": "700"
+          },
+          {
+            "value": "color_gray_800",
+            "label": "800"
+          },
+          {
+            "value": "color_gray_900",
+            "label": "900"
+          }
+        ],
+        "default": "color_gray_700"
+      },
+
+      {
+        "type": "color",
+        "id": "color_headings",
+        "label": "Headings color",
+        "default": "#3c403f"
+      },
+      {
+        "type": "color",
+        "id": "color_link",
+        "label": "Text Link color",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_link_hover",
+        "label": "Text Link hover color",
+        "default": "#4c8c2b"
+      },
+
+      {
+        "type": "header",
+        "content": {
+          "en": "On Sale"
+        }
+      },
+      {
+        "type": "color",
+        "id": "on_sale_price_color",
+        "label": "Color of the price when on sale.",
+        "default": "#f43044"
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Brand Colors"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_brand_100",
+        "label": "Brand Color - 100",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_brand_300",
+        "label": "Brand Color - 300",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_brand_500",
+        "label": "Brand Color - 500",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_brand_700",
+        "label": "Brand Color - 700",
+        "default": "#4c8c2b"
+      },
+
+      {
+        "type": "color",
+        "id": "color_brand_800",
+        "label": "Brand Color - 800",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_brand_900",
+        "label": "Brand Color - 900",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "General Colors"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_gray_100",
+        "label": "Gray 100",
+        "default": "#F7F7F7"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_200",
+        "label": "Gray 200",
+        "default": "#EDEDED"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_300",
+        "label": "Gray 300",
+        "default": "#E7F0EA"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_400",
+        "label": "Gray 400",
+        "default": "#E2EEE6"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_500",
+        "label": "Gray 500",
+        "default": "#D5DCD8"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_600",
+        "label": "Gray 600",
+        "default": "#8f9795"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_700",
+        "label": "Gray 700",
+        "default": "#656A67"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_800",
+        "label": "Gray 800",
+        "default": "#3C403F"
+      },
+      {
+        "type": "color",
+        "id": "color_gray_900",
+        "label": "Gray 900",
+        "default": "#282F2C"
+      },
+      {
+        "type": "color",
+        "id": "color_yellow_200",
+        "label": "Yellow 200",
+        "default": "#ffe55c"
+      },
+      {
+        "type": "color",
+        "id": "color_yellow_500",
+        "label": "Yellow 500",
+        "default": "#ffe55c"
+      },
+      {
+        "type": "color",
+        "id": "color_orange_200",
+        "label": "Orange 200",
+        "default": "#ffa819"
+      },
+      {
+        "type": "color",
+        "id": "color_orange_500",
+        "label": "Orange 500",
+        "default": "#ffa819"
+      },
+      {
+        "type": "color",
+        "id": "color_red_200",
+        "label": "Red 200",
+        "default": "#ed1651"
+      },
+      {
+        "type": "color",
+        "id": "color_red_500",
+        "label": "Red 500",
+        "default": "#ed1651"
+      },
+      {
+        "type": "color",
+        "id": "color_purple_200",
+        "label": "Purple 200",
+        "default": "#812990"
+      },
+      {
+        "type": "color",
+        "id": "color_purple_500",
+        "label": "Purple 500",
+        "default": "#812990"
+      },
+      {
+        "type": "color",
+        "id": "color_green_200",
+        "label": "Green 200",
+        "default": "#4c8c2b"
+      },
+      {
+        "type": "color",
+        "id": "color_green_500",
+        "label": "Green 500",
+        "default": "#4c8c2b"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Typography"
+    },
+    "settings": [
+      {
+        "type": "font_picker",
+        "label": "Text",
+        "id": "font_body",
+        "info": "Text",
+        "default": "nunito_sans_n4"
+      },
+      {
+        "type": "font_picker",
+        "label": "Headings",
+        "id": "font_heading",
+        "info": "Text",
+        "default": "montserrat_n4"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Favicon"
+    },
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": {
+          "en": "Favicon image"
+        },
+        "info": {
+          "en": "Will be scaled down to 32 x 32px"
+        }
+      }
+    ]
+  }
+]

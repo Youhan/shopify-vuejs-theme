@@ -1,0 +1,14 @@
+{{'layout.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'layout.js' | asset_url }}" defer></script>
+
+<div class="py-20 bg-gray-100 border-b">
+    <div class="container">
+        <h1 class="page-heading h1 text-2xl md:text-3xl lg:text-4xl">{{ page.title }}</h1>
+    </div>
+</div>
+
+<div class="py-16 bg-white">
+    <div class="container">
+        {{ page.content }}
+    </div>
+</div>

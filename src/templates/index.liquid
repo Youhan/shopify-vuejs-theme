@@ -1,0 +1,8 @@
+{{'home.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'home.js' | asset_url }}" defer></script>
+
+<div class="my-12">
+    <div class="container">
+        {{ content_for_index }}
+    </div>
+</div>
