@@ -44,7 +44,7 @@ plugins.forEach(plugin => {
  * =================================================================*/
 Object.entries(customElements).forEach(component => {
   const [name, module] = component;
-  module.i18n = i18n;
+
   module.store = vuexStore;
   Vue.customElement(name, module);
   Vue.config.ignoredElements = [name];
