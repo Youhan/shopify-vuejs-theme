@@ -1,8 +1,0 @@
-{
-  "v-icon": {
-    "scope": "vue-html",
-    "prefix": "v-icon",
-    "body": ["<v-icon name=\"${1}\"></v-icon>"],
-    "description": "<v-icon>"
-  }
-}
