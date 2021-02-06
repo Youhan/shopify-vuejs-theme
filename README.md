@@ -9,7 +9,7 @@ This is an experimental Shopify theme which uses
 
 ## How to develop
 
-0. install (Shopify theme kit)[https://shopify.dev/tools/theme-kit/getting-started]
+0. install [Shopify theme kit](https://shopify.dev/tools/theme-kit/getting-started)
 1. clone this repository
 2. `cd` into the directory
 3. run `yarn` to install dependencies
@@ -18,5 +18,6 @@ This is an experimental Shopify theme which uses
 
 ## Blog posts:
 
-(Shopify theme + Vuejs + Custom Elements)[https://dev.to/youhan/shopify-theme-vuejs-custom-elements-3bnl]
-(Shopify theme + Vuejs + Custom Elements: Part 2)[https://dev.to/youhan/shopify-theme-vuejs-custom-elements-part-2-4k3p]
+[Shopify theme + Vuejs + Custom Elements](https://dev.to/youhan/shopify-theme-vuejs-custom-elements-3bnl)
+
+[Shopify theme + Vuejs + Custom Elements: Part 2](https://dev.to/youhan/shopify-theme-vuejs-custom-elements-part-2-4k3p)
